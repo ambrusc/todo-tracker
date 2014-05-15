@@ -1,0 +1,145 @@
+@-webkit-viewport {
+  width: device-width; }
+@-moz-viewport {
+  width: device-width; }
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+@viewport {
+  width: device-width; }
+body {
+  margin: 0; }
+
+.indent {
+  box-sizing: border-box;
+  margin-left: 14px;
+  padding: 1px; }
+
+.tab-area {
+  background-color: white; }
+
+a.anchor h1 {
+  margin-top: -40px;
+  padding-top: 40px; }
+
+.modal-dialog-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%; }
+
+.modal-body {
+  overflow-y: auto; }
+
+.modal-footer {
+  margin-top: 0; }
+
+@media (max-width: 767px) {
+  .modal-dialog-center {
+    width: 100%; } }
+#hier-container {
+  position: relative;
+  background-color: white; }
+
+#limbo {
+  display: none; }
+
+#hierarchy.disabled {
+  color: gray !important; }
+
+#hier-hud {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  pointer-events: none;
+  position: absolute; }
+
+#input-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  font-size: 17px;
+  margin-top: 5px;
+  background-color: white;
+  pointer-events: none; }
+
+#hier-input {
+  width: 100%;
+  margin-top: -3px;
+  margin-left: -3px; }
+
+#input-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  pointer-events: none; }
+
+#raw-file {
+  width: 100%;
+  min-height: 500px;
+  resize: none; }
+
+.level {
+  margin: 5px 0 5px 25px;
+  font-size: 17px; }
+
+.heading {
+  font-size: 125%; }
+
+.item {
+  min-height: 24px; }
+
+.completed {
+  color: #aaaaaa;
+  text-decoration: line-through; }
+
+.tab-header {
+  position: relative;
+  height: 45px;
+  line-height: 45px; }
+  .tab-header .warnings,
+  .tab-header .file-name {
+    float: left;
+    line-height: 45px;
+    margin: 0;
+    margin-right: 40px;
+    padding: 0; }
+  .tab-header .warnings {
+    color: red;
+    font-weight: bold; }
+  .tab-header .data-storage {
+    float: left;
+    margin: 0;
+    margin-right: 5px;
+    padding: 0;
+    height: 45px;
+    line-height: 45px; }
+  .tab-header .nav {
+    float: right;
+    margin-left: 20px; }
+
+.task:hover {
+  background-color: #d5e8ff; }
+
+.selected,
+.selected:hover {
+  background-color: #b9d9ff; }
+
+.task-edit .project {
+  color: blue; }
+.task-edit .location {
+  color: red; }
+.task-edit .isCompleted {
+  color: gray; }
+.task-edit .startDate {
+  color: green; }
+.task-edit .finishDate {
+  color: orange; }
+.task-edit .priority {
+  color: purple; }

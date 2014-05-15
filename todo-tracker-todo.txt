@@ -1,0 +1,12 @@
+x +bootstrap 'n' to add a task
+x +bootstrap 'del' to delete a task (with confirmation)
+x +bootstrap save/load via a local nodejs instance
+(A) +bootstrap +nice-to-have code cleanup (MVC pattern)
+(B) +bootstrap +nice-to-have sorting by completed
+(B) +bootstrap +nice-to-have sorting by priority
++bootstrap +nice-to-have attachable comments
++bootstrap +nice-to-have shortcut help screen
++bootstrap +nice-to-have project name editing
++bootstrap +nice-to-have tab-completion
++bootstrap +nice-to-have double-click to edit
++bootstrap +nice-to-have automatic date tracking

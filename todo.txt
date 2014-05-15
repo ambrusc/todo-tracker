@@ -1,0 +1,12 @@
+2014-05-13 +todotxt +notes minimum viable product
+2014-05-13 +todotxt +notes +tokenizing edits are to whole tokens
+2014-05-13 +todotxt +notes +tokenizing this is going to take some gymnastics
+2014-05-13 +todotxt +notes +editing navigate with keyboard (up/down)
+2014-05-13 +todotxt +notes +editing enter to edit existing task
+2014-05-13 +todotxt +notes +editing 'n' to create a new task
+2014-05-13 +todotxt +notes +editing 'c' to complete a task
+2014-05-13 +todotxt +notes +editing "projects" are hierarchies (structured)
+2014-05-13 +todotxt +notes +editing "locations" are tags (unstructured)
+2014-05-13 +todotxt +features add a task
+2014-05-13 +todotxt +features complete a task
+2014-05-13 +todotxt +features remove a task (should be difficult)
